@@ -1,0 +1,35 @@
+{
+  "name": "content-planner-backend",
+  "version": "0.2.0",
+  "private": false,
+  "license": "AGPL-3.0-or-later",
+  "description": "Simple Express backend with file-based JSON storage for a content creation planner.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "lint": "eslint ../"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "proper-lockfile": "^4.1.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+		"@eslint/js": "^9.15.0",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react": "^7.37.0",
+    "globals": "^15.12.0"
+  },
+  "overrides": {
+    "@humanwhocodes/object-schema": "npm:@eslint/object-schema@^1.1.0",
+    "@humanwhocodes/config-array": "npm:@eslint/config-array@^1.0.0",
+    "eslint": "^9.15.0"
+  }
+}

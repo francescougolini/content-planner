@@ -1,0 +1,18 @@
+# node_modules
+node_modules/
+dist/
+
+# Local databases (CRITICAL)
+backend/db/*.backup
+backend/db/*.json
+backend/db/*.ndjson
+backend/db/*.sha256
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.DS_Store
